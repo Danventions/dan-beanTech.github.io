@@ -23,6 +23,11 @@
 	color: #1e78c2
 }
 
+.side-home-img {
+	justify-content: right;
+	height: 800px;
+}
+
 
 .cursor::after {
 	content: "";

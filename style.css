@@ -82,7 +82,7 @@
 
 .about-us{
 	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding-bottom: 2.5rem;
 	text-align: right;
 }
 
@@ -93,6 +93,20 @@
 .about-us p{
 	font-size: 2rem;
 	text-align: right;
+}
+
+.process {
+	margin-top: 7rem;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.process ul{
+	margin-top: 7rem;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
 }
 
 .cursor::after {

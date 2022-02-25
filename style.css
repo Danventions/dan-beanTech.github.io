@@ -88,7 +88,7 @@
 }
 
 .about-us h1{
-	font-size: 5rem;
+	font-size: 2.5rem;
 	font-weight: 900;
 }
 .about-us p{
@@ -97,7 +97,8 @@
 }
 
 .process {
-	margin-top: 7rem;
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
@@ -105,10 +106,15 @@
 }
 
 .process ul{
-	margin-top: 7rem;
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+	align-items: baseline;
+	padding-top: 6rem;
+}
+
+.process ul h1{
+	font-size: 4.5rem;
 }
 
 .process ul li{

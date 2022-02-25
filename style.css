@@ -81,9 +81,10 @@
 }
 
 .about-us{
-	padding-top: 10rem;
-	padding-bottom: 2.5rem;
+	padding-top: 8rem;
+	padding-bottom: 0rem;
 	text-align: right;
+	background-color: rgba(33,122,195,0.85);
 }
 
 .about-us h1{
@@ -100,6 +101,7 @@
 	display: flex;
 	flex-direction: row;
 	text-align: center;
+	background-color: white;
 }
 
 .process ul{
@@ -107,6 +109,10 @@
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+}
+
+.process ul li{
+	font-size: 1.5rem;
 }
 
 .cursor::after {
